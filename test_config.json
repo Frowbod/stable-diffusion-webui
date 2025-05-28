@@ -1,0 +1,12 @@
+{
+    "outdir_samples": "outputs/cpu_test",
+    "prompt": "cosmic vault, ethereal sigils, glowing runes, cyberpunk aesthetic",
+    "negative_prompt": "blurry, low-quality, distorted, artifacts",
+    "steps": 30,
+    "cfg_scale": 7.0,
+    "width": 512,
+    "height": 512,
+    "model": "stabilityai/stable-diffusion-2-1",
+    "enable_nsfw_filter": false,
+    "custom_scripts": ["sigil_enhancer.py"]
+}
